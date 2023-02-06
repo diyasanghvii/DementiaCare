@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.dominic.memo.Alert">
+    <item
+        android:id="@+id/my_profile"
+        android:title="My Profile"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/go_home"
+        android:title="Home"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        android:visible="true"
+        app:showAsAction="never" />
+</menu>
